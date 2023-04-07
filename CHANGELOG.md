@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/codibre/sonic-date/compare/v0.1.2...v0.1.3) (2023-04-07)
+
+
+### Bug Fixes
+
+* fixing typoe on readme ([d4ffc9c](https://github.com/codibre/sonic-date/commit/d4ffc9c4f3c59b387550a1da74b227a3db47495d))
+
 ## [0.1.2](https://github.com/codibre/sonic-date/compare/v0.1.1...v0.1.2) (2023-04-07)
 
 

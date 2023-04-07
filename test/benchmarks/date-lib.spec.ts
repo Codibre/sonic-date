@@ -16,10 +16,7 @@ describe('General benchmark', () => {
 		}
 		function usingCustom(date?: Date) {
 			// date ??= new Date();
-			return new SonicDate(date)
-				.addHours(10 * 24)
-				.startOfDay()
-				.toISOString();
+			return new SonicDate(date).addDays(10).startOfDay().toISOString();
 		}
 
 		expect(usingMoment(baseDate)).toBe(usingDateFns(baseDate));

@@ -25,6 +25,17 @@ We'll add more methods from date-fns by demand, always caring about performance 
 npm i sonic-date
 ```
 
+## How to use it
+
+You just use it as if calling any other Date method, example:
+
+```ts
+new SonicDate(date)
+				.addDays(10)
+				.startOfDay()
+				.toISOString()
+```
+
 ## License
 
 Licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License).

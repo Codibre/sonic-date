@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/codibre/sonic-date/compare/v0.1.0...v0.1.1) (2023-04-07)
+
+
+### Bug Fixes
+
+* fixing build command ([ca4d787](https://github.com/codibre/sonic-date/commit/ca4d787c7aa0393d3bfa4bb1904f6921d025740e))
+
 # [0.1.0](https://github.com/codibre/sonic-date/compare/v0.0.1...v0.1.0) (2023-04-07)
 
 

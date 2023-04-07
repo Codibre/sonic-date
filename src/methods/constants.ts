@@ -1,4 +1,3 @@
-export const DATE_SIZE = 10;
 export const scales = {
 	addSeconds: 1000,
 	addMinutes: 60000,

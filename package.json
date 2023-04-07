@@ -17,7 +17,7 @@
     "doc": "rm -rf docs && npx typedoc && git add . && git commit -m 'chore: generating docs [skip ci]'",
     "lint": "npm run lint:format && npm run lint:style",
     "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "nest build",
     "test": "TZ=UTC jest test/unit --runInBand --forceExit",
     "test:only": "TZ=UTC jest",
     "test:watch": "TZ=UTC jest test/unit --runInBand --forceExit --watch",

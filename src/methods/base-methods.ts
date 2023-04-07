@@ -1,11 +1,11 @@
-import { SuperDate } from '../sonic-date';
+import { SonicDate } from '../sonic-date';
 import { scales } from './constants';
 
 const DATE_SIZE = 10;
 const { addMinutes } = scales;
 
 export function clone(this: Date) {
-	return new SuperDate(this.getTime());
+	return new SonicDate(this.getTime());
 }
 
 export function startOfDay<T extends Date>(this: T) {

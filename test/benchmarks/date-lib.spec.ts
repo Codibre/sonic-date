@@ -1,7 +1,7 @@
 import Benchmark = require('benchmark');
 import { utc } from 'moment';
 import { addDays, startOfDay } from 'date-fns';
-import { SuperDate } from 'src/index';
+import { SonicDate } from 'src/index';
 
 const benchmarkSuite = new Benchmark.Suite();
 
@@ -16,7 +16,7 @@ describe('General benchmark', () => {
 		}
 		function usingCustom(date?: Date) {
 			// date ??= new Date();
-			return new SuperDate(date)
+			return new SonicDate(date)
 				.addHours(10 * 24)
 				.startOfDay()
 				.toISOString();

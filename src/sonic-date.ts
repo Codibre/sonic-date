@@ -2,14 +2,14 @@ import * as methods from './methods';
 
 export type Dateable = Date | number | string;
 
-export class SuperDate extends Date {
+export class SonicDate extends Date {
 	constructor(date?: Dateable) {
 		if (date) super(date);
 		else super();
 	}
 }
-export interface SuperDate {
-	clone(): SuperDate;
+export interface SonicDate {
+	clone(): SonicDate;
 	isAfter(dateToCompare: Dateable): boolean;
 	isBefore(dateToCompare: Dateable): boolean;
 	addMilliseconds(amount: number): this;
@@ -24,7 +24,7 @@ export interface SuperDate {
 }
 
 (Object.keys(methods) as Array<keyof typeof methods>).forEach((method) => {
-	(SuperDate.prototype[
+	(SonicDate.prototype[
 		method
-	] as unknown as typeof SuperDate.prototype[typeof method]) = methods[method];
+	] as unknown as typeof SonicDate.prototype[typeof method]) = methods[method];
 });

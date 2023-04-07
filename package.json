@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-base",
+  "name": "sonic-date",
   "description": "This project is just a template for creation of new projects",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Thiago O Santos <tos.oliveira@gmail.com>"
   },
@@ -30,8 +30,8 @@
     "preaction:verify:update-modules": "npm run action:verify:update-modules:check",
     "action:verify:update-modules": "npm run action:verify:update-modules:reinstall && npm run action:verify:update-modules:clean",
     "action:verify:update-modules:clean": "del-cli .check",
-    "lint:format": "prettier --check '{src,test}/**/*.ts'",
-    "lint:format:fix": "prettier --write '{src,test}/**/*.ts'",
+    "lint:format": "prettier --check '{src,test}/**/*.ts' '.eslintrc.js'",
+    "lint:format:fix": "prettier --write '{src,test}/**/*.ts' '.eslintrc.js'",
     "lint:style": "eslint '**/*.ts'",
     "lint:style:fix": "eslint '**/*.ts' --fix",
     "prepare": "husky install",
@@ -62,11 +62,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codibre/boilerplate-base.git"
+    "url": "https://github.com/codibre/sonic-date.git"
   },
-  "homepage": "https://github.com/codibre/boilerplate-base#readme",
+  "homepage": "https://github.com/codibre/sonic-date#readme",
   "bugs": {
-    "url": "https://github.com/codibre/boilerplate-base/issues"
+    "url": "https://github.com/codibre/sonic-date/issues"
   },
   "keywords": [],
   "license": "MIT",

@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/codibre/sonic-date/compare/v0.1.1...v0.1.2) (2023-04-07)
+
+
+### Bug Fixes
+
+* fixing class name ([9f4c8c9](https://github.com/codibre/sonic-date/commit/9f4c8c92b35598c0146aa005e77cbbd55fe5ee05))
+
 ## [0.1.1](https://github.com/codibre/sonic-date/compare/v0.1.0...v0.1.1) (2023-04-07)
 
 

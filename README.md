@@ -1,8 +1,8 @@
 [![Actions Status](https://github.com/Codibre/sonic-date/workflows/build/badge.svg)](https://github.com/Codibre/sonic-date/actions)
 [![Actions Status](https://github.com/Codibre/sonic-date/workflows/test/badge.svg)](https://github.com/Codibre/sonic-date/actions)
 [![Actions Status](https://github.com/Codibre/sonic-date/workflows/lint/badge.svg)](https://github.com/Codibre/sonic-date/actions)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/65e41e3018643f28168e/test_coverage)](https://codeclimate.com/github/Codibre/sonic-date/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/65e41e3018643f28168e/maintainability)](https://codeclimate.com/github/Codibre/sonic-date/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/49e63bae262ffe1388d8/test_coverage)](https://codeclimate.com/github/Codibre/sonic-date/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/49e63bae262ffe1388d8/maintainability)](https://codeclimate.com/github/Codibre/sonic-date/maintainability)
 [![Packages](https://david-dm.org/Codibre/sonic-date.svg)](https://david-dm.org/Codibre/sonic-date)
 [![npm version](https://badge.fury.io/js/sonic-date.svg)](https://badge.fury.io/js/sonic-date)
 

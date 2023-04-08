@@ -12,9 +12,23 @@ describe(isBefore.name, () => {
 		assert(result === true);
 	});
 
+	it('returns true if the first date is before the second one when second one is a string', () => {
+		const result = new SonicDate(1987, 1 /* Feb */, 11).isBefore(
+			new SonicDate(1989, 6 /* Jul */, 10).toISOString(),
+		);
+		assert(result === true);
+	});
+
 	it('returns false if the first date is after the second one', () => {
 		const result = new SonicDate(1989, 6 /* Jul */, 10).isBefore(
 			new SonicDate(1987, 1 /* Feb */, 11),
+		);
+		assert(result === false);
+	});
+
+	it('returns false if the first date is after the second one is a string', () => {
+		const result = new SonicDate(1989, 6 /* Jul */, 10).isBefore(
+			new SonicDate(1987, 1 /* Feb */, 11).toISOString(),
 		);
 		assert(result === false);
 	});

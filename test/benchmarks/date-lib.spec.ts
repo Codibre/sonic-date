@@ -1,7 +1,7 @@
 import Benchmark = require('benchmark');
 import { utc } from 'moment';
 import { addDays, startOfDay } from 'date-fns';
-import { SonicDate } from 'src/index';
+import { SonicDate } from '../../dist';
 
 const benchmarkSuite = new Benchmark.Suite();
 

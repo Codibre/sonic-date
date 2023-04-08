@@ -1,0 +1,6 @@
+{
+  "name": "index",
+  "main": "dist/index.d.ts",
+  "removeSource": true,
+  "outputAsModuleFolder": true
+}

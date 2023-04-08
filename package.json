@@ -25,7 +25,7 @@
     "test:coverage": "TZ=UTC jest test/unit --runInBand --forceExit --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "TZ=UTC jest test/e2e",
-    "test:benchmark": "npm run test:only test/benchmarks/date-lib.spec.ts",
+    "test:benchmark": "npm run build && npm run test:only test/benchmarks/date-lib.spec.ts",
     "clear": "npm run clear:build && npm run clear:modules",
     "clear:build": "del-cli ./dist",
     "clear:modules": "del-cli ./node_modules",

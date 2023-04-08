@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/Codibre/sonic-date/workflows/lint/badge.svg)](https://github.com/Codibre/sonic-date/actions)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/49e63bae262ffe1388d8/test_coverage)](https://codeclimate.com/github/Codibre/sonic-date/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/49e63bae262ffe1388d8/maintainability)](https://codeclimate.com/github/Codibre/sonic-date/maintainability)
-[![benchmark](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml/badge.svg)](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml)
+[![benchmark (at least 3x faster than date-fns)](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml/badge.svg)](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml)
 [![npm version](https://badge.fury.io/js/sonic-date.svg)](https://badge.fury.io/js/sonic-date)
 
 Sonic that is a fluent implementation for some of the **date-fns** functions heavily focused on performance.

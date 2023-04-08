@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/codibre/sonic-date/compare/v0.2.1...v0.2.2) (2023-04-08)
+
+
+### Bug Fixes
+
+* putting coverage upload into semantic pipeline ([6472b62](https://github.com/codibre/sonic-date/commit/6472b6285c2cc136f5a5ee815bee6fcf670e4924))
+
 ## [0.2.1](https://github.com/codibre/sonic-date/compare/v0.2.0...v0.2.1) (2023-04-08)
 
 

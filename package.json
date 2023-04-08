@@ -15,7 +15,7 @@
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "doc": "rm -rf docs && npx typedoc && git add . && git commit -m 'chore: generating docs [skip ci]'",
+    "doc": "rm -rf docs && npx typedoc src/index.ts && git add . && git commit -m 'chore: generating docs [skip ci]'",
     "lint": "npm run lint:format && npm run lint:style",
     "lint:fix": "npm run lint:format:fix && npm run lint:style:fix",
     "build": "nest build && dts-bundle --configJson dts-bundle.json",

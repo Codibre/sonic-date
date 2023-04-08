@@ -1,3 +1,10 @@
+## [0.1.8](https://github.com/codibre/sonic-date/compare/v0.1.7...v0.1.8) (2023-04-08)
+
+
+### Bug Fixes
+
+* fixing readme ([ea1ba4a](https://github.com/codibre/sonic-date/commit/ea1ba4a3a27f179f02f6b2fa28c99c1c458d3dd2))
+
 ## [0.1.7](https://github.com/codibre/sonic-date/compare/v0.1.6...v0.1.7) (2023-04-08)
 
 

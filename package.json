@@ -13,7 +13,7 @@
     "dist"
   ],
   "main": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "doc": "rm -rf docs && npx typedoc src/index.ts && git add . && git commit -m 'chore: generating docs [skip ci]'",
     "lint": "npm run lint:format && npm run lint:style",

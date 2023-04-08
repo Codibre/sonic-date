@@ -1,3 +1,10 @@
+## [0.1.5](https://github.com/codibre/sonic-date/compare/v0.1.4...v0.1.5) (2023-04-08)
+
+
+### Bug Fixes
+
+* adding tests and slightly improving constructor performance ([506d3e8](https://github.com/codibre/sonic-date/commit/506d3e89b1c0955c2bec5b903e9e08b325875179))
+
 ## [0.1.4](https://github.com/codibre/sonic-date/compare/v0.1.3...v0.1.4) (2023-04-07)
 
 

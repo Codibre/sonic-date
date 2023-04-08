@@ -2,12 +2,7 @@ import * as methods from './methods';
 
 export type Dateable = Date | number | string;
 
-export class SonicDate extends Date {
-	constructor(date?: Dateable) {
-		if (date) super(date);
-		else super();
-	}
-}
+export class SonicDate extends Date {}
 export interface SonicDate {
 	clone(): SonicDate;
 	isAfter(dateToCompare: Dateable): boolean;

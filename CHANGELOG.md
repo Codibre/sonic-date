@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/codibre/sonic-date/compare/v0.1.5...v0.1.6) (2023-04-08)
+
+
+### Bug Fixes
+
+* fixing coverage baggage ([1b92dae](https://github.com/codibre/sonic-date/commit/1b92dae2af4ef3e7fd8c102b2f3fbc8a00423ecd))
+
 ## [0.1.5](https://github.com/codibre/sonic-date/compare/v0.1.4...v0.1.5) (2023-04-08)
 
 

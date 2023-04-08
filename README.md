@@ -6,7 +6,7 @@
 [![benchmark (at least 3x faster than date-fns)](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml/badge.svg)](https://github.com/Codibre/sonic-date/actions/workflows/benchmark.yml)
 [![npm version](https://badge.fury.io/js/sonic-date.svg)](https://badge.fury.io/js/sonic-date)
 
-Sonic that is a fluent implementation for some of the **date-fns** functions heavily focused on performance.
+Sonic Date is a fluent implementation for some of the **date-fns** functions heavily focused on performance.
 As you can see, sonic-date is more than 4 times faster than **date-fns**
 
 ```

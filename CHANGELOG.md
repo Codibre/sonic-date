@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/codibre/sonic-date/compare/v0.2.0...v0.2.1) (2023-04-08)
+
+
+### Bug Fixes
+
+* making .d.ts bundle for smaller output ([2915d74](https://github.com/codibre/sonic-date/commit/2915d74956ffff6f8a9408e7f1ee1f749c02f959))
+
 # [0.2.0](https://github.com/codibre/sonic-date/compare/v0.1.8...v0.2.0) (2023-04-08)
 
 

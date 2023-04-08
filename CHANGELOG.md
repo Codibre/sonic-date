@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/codibre/sonic-date/compare/v0.2.2...v0.2.3) (2023-04-08)
+
+
+### Bug Fixes
+
+* fixing types value on package.json ([5abf27e](https://github.com/codibre/sonic-date/commit/5abf27ef43842df226ecf19c05717b0e39d4dc36))
+
 ## [0.2.2](https://github.com/codibre/sonic-date/compare/v0.2.1...v0.2.2) (2023-04-08)
 
 

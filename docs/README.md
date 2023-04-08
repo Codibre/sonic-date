@@ -11,6 +11,7 @@ sonic-date / [Exports](modules.md)
 Sonic Date is a fluent implementation for some of the **date-fns** functions heavily focused on performance.
 As you can see, sonic-date is more than 4 times faster than **date-fns**
 
+
 ```
 moment x 136,114 ops/sec ±2.23% (90 runs sampled)
 date-fns x 583,665 ops/sec ±0.54% (98 runs sampled)

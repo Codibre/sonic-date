@@ -1,3 +1,10 @@
+## [0.1.7](https://github.com/codibre/sonic-date/compare/v0.1.6...v0.1.7) (2023-04-08)
+
+
+### Bug Fixes
+
+* adding benchmark badge ([7d277c3](https://github.com/codibre/sonic-date/commit/7d277c31404eb6994b9eb6db654aedeaba5ca681))
+
 ## [0.1.6](https://github.com/codibre/sonic-date/compare/v0.1.5...v0.1.6) (2023-04-08)
 
 

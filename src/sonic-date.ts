@@ -13,6 +13,8 @@ export interface SonicDate {
 	addHours(amount: number): this;
 	addDays(amount: number): this;
 	startOfDay(): this;
+	minutesFromMidnight(): number;
+	differenceInMinutes(dateRight: Dateable): number;
 	differenceInDays(dateRight: Dateable): number;
 	toISODateString(): string;
 	utcTime(): number;

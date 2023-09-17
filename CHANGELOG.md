@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/codibre/sonic-date/compare/v0.2.3...v0.3.0) (2023-09-17)
+
+
+### Features
+
+* adding methods minutesFromMidnight and differenceInMinutes ([48aa2d5](https://github.com/codibre/sonic-date/commit/48aa2d57385ba2e196ce68e27a58cb73e6582e98))
+
 ## [0.2.3](https://github.com/codibre/sonic-date/compare/v0.2.2...v0.2.3) (2023-04-08)
 
 

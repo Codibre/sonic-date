@@ -17,7 +17,7 @@ const addFuncs = {} as unknown as Record<
 			return addMilliseconds.apply(this, [amount * scale]) as T;
 		},
 	};
-	addFuncs[key] = wrapper[key] as unknown as typeof wrapper[typeof key];
+	addFuncs[key] = wrapper[key] as unknown as (typeof wrapper)[typeof key];
 });
 
 module.exports = {

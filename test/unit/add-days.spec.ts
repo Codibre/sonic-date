@@ -38,7 +38,7 @@ describe('addDays', () => {
 			dstTransitions.start && dstTransitions.end
 				? (dstTransitions.end.getTimezoneOffset() -
 						dstTransitions.start.getTimezoneOffset()) *
-				  MINUTE
+					MINUTE
 				: NaN;
 
 		it(`works at DST-start boundary in local timezone: ${

@@ -16,6 +16,7 @@ export interface SonicDate {
 	minutesFromMidnight(): number;
 	differenceInMinutes(dateRight: Dateable): number;
 	differenceInDays(dateRight: Dateable): number;
+	differenceInYears(dateRight: Dateable): number;
 	toISODateString(): string;
 	utcTime(): number;
 }
@@ -23,5 +24,6 @@ export interface SonicDate {
 (Object.keys(methods) as Array<keyof typeof methods>).forEach((method) => {
 	(SonicDate.prototype[
 		method
-	] as unknown as typeof SonicDate.prototype[typeof method]) = methods[method];
+	] as unknown as (typeof SonicDate.prototype)[typeof method]) =
+		methods[method];
 });

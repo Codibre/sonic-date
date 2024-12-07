@@ -12,6 +12,8 @@ export interface SonicDate {
 	addMinutes(amount: number): this;
 	addHours(amount: number): this;
 	addDays(amount: number): this;
+	addMonths(amount: number): this;
+	addYears(amount: number): this;
 	startOfDay(): this;
 	minutesFromMidnight(): number;
 	differenceInMinutes(dateRight: Dateable): number;

@@ -6,11 +6,21 @@ function addMilliseconds<T extends Date>(this: T, amount: number): typeof this {
 }
 
 const YEAR_MONTHS = 12;
+function adjustDay<T extends Date>(date: T, currentDay: number) {
+	const laterDay = date.getDate();
+	if (currentDay !== laterDay) {
+		addMilliseconds.call(date, -laterDay * scales.addDays);
+	}
+}
+
 function addYears<T extends Date>(this: T, amount: number): typeof this {
+	const currentDay = this.getDate();
 	this.setFullYear(this.getFullYear() + amount);
+	adjustDay(this, currentDay);
 
 	return this;
 }
+
 function addMonths<T extends Date>(this: T, amount: number): typeof this {
 	const monthSum = this.getMonth() + amount;
 	const years =
@@ -22,10 +32,7 @@ function addMonths<T extends Date>(this: T, amount: number): typeof this {
 			: monthSum % YEAR_MONTHS;
 	const currentDay = this.getDate();
 	this.setMonth(month);
-	const laterDay = this.getDate();
-	if (currentDay !== laterDay) {
-		addMilliseconds.call(this, -laterDay * scales.addDays);
-	}
+	adjustDay(this, currentDay);
 
 	return this;
 }

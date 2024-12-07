@@ -31,6 +31,7 @@ module.exports = {
 		'build/**',
 		'bin/**',
 		'templates/**',
+		'docs/**',
 		'*.py',
 		'.eslintrc.js',
 	],

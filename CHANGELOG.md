@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/codibre/sonic-date/compare/v0.3.0...v0.4.0) (2024-12-07)
+
+
+### Features
+
+* implementing difference in years ([#5](https://github.com/codibre/sonic-date/issues/5)) ([91cc25e](https://github.com/codibre/sonic-date/commit/91cc25e90ba5909cdf3eb0bb9255001c805f4e9a))
+
 # [0.3.0](https://github.com/codibre/sonic-date/compare/v0.2.3...v0.3.0) (2023-09-17)
 
 

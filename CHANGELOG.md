@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/codibre/sonic-date/compare/v0.5.1...v0.6.0) (2024-12-07)
+
+
+### Features
+
+* adding Now ([29f7815](https://github.com/codibre/sonic-date/commit/29f78157189a9d39de1e72d238701e085137e5ac))
+
 ## [0.5.1](https://github.com/codibre/sonic-date/compare/v0.5.0...v0.5.1) (2024-12-07)
 
 

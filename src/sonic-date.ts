@@ -2,7 +2,11 @@ import * as methods from './methods';
 
 export type Dateable = Date | number | string;
 
-export class SonicDate extends Date {}
+export class SonicDate extends Date {
+	static get Now() {
+		return new SonicDate();
+	}
+}
 export interface SonicDate {
 	clone(): SonicDate;
 	isAfter(dateToCompare: Dateable): boolean;

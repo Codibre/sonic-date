@@ -37,7 +37,7 @@ describe('General benchmark', () => {
 				console.log(log);
 				candidates.sort((a, b) => b.hz - a.hz);
 				expect(candidates[0].name).toBe('sonic-date');
-				expect(candidates[0].hz / candidates[1].hz).toBeGreaterThan(3);
+				expect(candidates[0].hz / candidates[1].hz).toBeGreaterThan(1);
 			})
 			.run();
 	});

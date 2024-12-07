@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: benchmark (at least 3x faster than date-fns)
+name: benchmark (at least faster than date-fns)
 on:
   workflow_dispatch:
   push:

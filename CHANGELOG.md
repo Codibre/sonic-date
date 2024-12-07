@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/codibre/sonic-date/compare/v0.4.0...v0.5.0) (2024-12-07)
+
+
+### Features
+
+* adding getMonths and getyears ([ecadb90](https://github.com/codibre/sonic-date/commit/ecadb9088c45f5d001b32eef6035369a41195016))
+
 # [0.4.0](https://github.com/codibre/sonic-date/compare/v0.3.0...v0.4.0) (2024-12-07)
 
 

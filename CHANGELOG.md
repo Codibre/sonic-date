@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/codibre/sonic-date/compare/v0.5.0...v0.5.1) (2024-12-07)
+
+
+### Bug Fixes
+
+* fixing addYears ([#6](https://github.com/codibre/sonic-date/issues/6)) ([50a10b1](https://github.com/codibre/sonic-date/commit/50a10b1a913d1802aa9eebb6e64791a0b0caf7e2))
+
 # [0.5.0](https://github.com/codibre/sonic-date/compare/v0.4.0...v0.5.0) (2024-12-07)
 
 

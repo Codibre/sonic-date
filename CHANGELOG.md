@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/codibre/sonic-date/compare/v0.6.0...v0.6.1) (2025-01-10)
+
+
+### Bug Fixes
+
+* fixing subtractions of months when turning years ([#8](https://github.com/codibre/sonic-date/issues/8)) ([7d24d7f](https://github.com/codibre/sonic-date/commit/7d24d7f580caab978dab7bd91fe566c98e64408b))
+
 # [0.6.0](https://github.com/codibre/sonic-date/compare/v0.5.1...v0.6.0) (2024-12-07)
 
 

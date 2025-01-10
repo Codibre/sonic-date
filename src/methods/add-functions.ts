@@ -23,8 +23,8 @@ function addYears<T extends Date>(this: T, amount: number): typeof this {
 
 function addMonths<T extends Date>(this: T, amount: number): typeof this {
 	const monthSum = this.getMonth() + amount;
-	const years =
-		(monthSum < 0 ? -1 : 1) * Math.floor(Math.abs(monthSum) / YEAR_MONTHS);
+	const yearsToAdd = Math.floor(Math.abs(monthSum) / YEAR_MONTHS);
+	const years = monthSum < 0 ? -(1 + yearsToAdd) : yearsToAdd;
 	if (years !== 0) addYears.call(this, years);
 	const month =
 		monthSum < 0
